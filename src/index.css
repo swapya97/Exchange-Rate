@@ -1,0 +1,98 @@
+:root {
+  --background-color: hsl(208, 62%, 26%);
+  --secondary-color: hsl(32, 70%, 49%);
+  --text-color: hsl(0, 33%, 96%);
+  --accent-color: hsl(198, 79%, 31%);
+}
+
+.ExchangeRateChart {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 60px;
+}
+
+.ExchangeRateChart-title {
+  background-color: var(--accent-color);
+  font-size: 2rem;
+  line-height: 4rem;
+  border-radius: 50px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 50px;
+  color: white;
+  box-shadow: 2px 2px 20px 2px black;
+}
+
+@media screen and (min-width: 900px) {
+  .ExchangeRateChart {
+    width: 70%;
+  }
+}
+
+.ExchangeRate {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+}
+/* bar */
+.ExchangeRateChart-bar {
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.4rem;
+  transition: box-shadow 0.2s, font-size 0.2s;
+  border: solid 2px black;
+}
+
+.ExchangeRateChart-bar:hover {
+  box-shadow: 5px 5px 10px 5px #000000;
+  font-size: 1.6rem;
+}
+
+.ExchangeRateChart-bar-text {
+  padding: 10px;
+  text-align: end;
+}
+
+/* Barchart */
+.ExchangeRateChart-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* ChartContainer */
+.ExchangeRateChart-legend {
+  background-color: var(--accent-color);
+  font-size: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+#numOfMonths {
+  width: 40px;
+}
+
+
+#numOfMonths {
+  width: 40px;
+}
+.time {
+  display: flex;
+  background-image: linear-gradient(to right, #2eaafa, #1f2f9a);
+  border-radius: 10px;
+  padding: 5px;
+  height: 70px;
+  width: 650px;
+  align-items: center;
+  margin: auto;
+}

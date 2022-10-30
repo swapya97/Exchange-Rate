@@ -1,0 +1,36 @@
+body {
+  background-image: linear-gradient(to right, #bbbaba, #ffffff);
+}
+.header h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form input {
+  width: 250px;
+  border-radius: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px;
+  display: block;
+  gap: 10px;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+
+button {
+  padding: 10px 15px;
+  margin: auto;
+  border-radius: 10px;
+  width: 150px;
+  background-color: rgb(131, 128, 128);
+  font-size: 18px;
+  border: solid rgb(131, 128, 128);
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: 40px;
+}
+.form {
+  margin: auto;
+  text-align: center;
+}
